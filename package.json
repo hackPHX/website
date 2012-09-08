@@ -11,12 +11,15 @@
     "url": "git://github.com/hackphx/website.git"
   },
   "bugs": {
-    "url" : "http://github.com/hackphx/website/issues"
+    "url": "http://github.com/hackphx/website/issues"
   },
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/hackphx/website/blob/master/LICENSE-MIT"
     }
-  ]
+  ],
+  "dependencies": {
+    "grunt-recess": "~0.1.1"
+  }
 }
