@@ -23,10 +23,11 @@
   min-height: @navbarHeight;
   padding-left:  20px;
   padding-right: 20px;
-  #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
-  border: 1px solid @navbarBorder;
+  // #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
+  background-color: @navbarBackground;
+  // border: 1px solid @navbarBorder;
   .border-radius(4px);
-  .box-shadow(0 1px 4px rgba(0,0,0,.065));
+  // .box-shadow(0 1px 4px rgba(0,0,0,.065));
 
   // Prevent floats from breaking the navbar
   .clearfix();
@@ -52,7 +53,7 @@
   // Vertically center the text given @navbarHeight
   padding: ((@navbarHeight - @baseLineHeight) / 2) 20px ((@navbarHeight - @baseLineHeight) / 2);
   margin-left: -20px; // negative indent to left-align the text down the page
-  font-size: 20px;
+  font-size: @baseFontSize + 6;
   font-weight: 200;
   color: @navbarBrandColor;
   text-shadow: 0 1px 0 @navbarBackgroundHighlight;
@@ -199,12 +200,12 @@
 .navbar-fixed-top {
   top: 0;
 }
-.navbar-fixed-top,
-.navbar-static-top {
-  .navbar-inner {
-    .box-shadow(inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 10px rgba(0,0,0,.1));
-  }
-}
+// .navbar-fixed-top,
+// .navbar-static-top {
+//   .navbar-inner {
+//     .box-shadow(inset 0 -1px 0 rgba(0,0,0,.1), 0 1px 10px rgba(0,0,0,.1));
+//   }
+// }
 
 // Fixed to bottom
 .navbar-fixed-bottom {

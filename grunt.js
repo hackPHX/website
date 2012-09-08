@@ -20,27 +20,27 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: ['<banner:meta.banner>', '<file_strip_banner:lib/<%= pkg.name %>.js>'],
-        dest: 'dist/<%= pkg.name %>.js'
+        dest: 'dist/js/<%= pkg.name %>.js'
       }
     },
     min: {
       dist: {
         src: ['<banner:meta.banner>', '<config:concat.dist.dest>'],
-        dest: 'dist/<%= pkg.name %>.min.js'
+        dest: 'dist/js/<%= pkg.name %>.min.js'
       }
     },
     recess: {
       dist: {
         src: ['bootstrap/bootstrap.less'],
-        dest: 'dist/bootstrap.css',
+        dest: 'dist/css/bootstrap.css',
         options: {
           compile: true
         }
       }
     },
     watch: {
-      files: '<config:lint.files>',
-      tasks: 'lint qunit'
+      files: ['<config:lint.files>', 'bootstrap/**/*.less'],
+      tasks: 'default'
     },
     jshint: {
       options: {

@@ -20,19 +20,20 @@
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
+@blue:                  #738F9B;
+@red:                   #BA6222;
+@yellow:                #EFDD6F;
+@orange:                #E49135;
+@brown:                 #7B4A12;
+
 @blueDark:              #0064cd;
 @green:                 #46a546;
-@red:                   #9d261d;
-@yellow:                #ffc40d;
-@orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
-
 // Scaffolding
 // -------------------------
-@bodyBackground:        @white;
+@bodyBackground:        @red;
 @textColor:             @grayDark;
 
 
@@ -48,9 +49,9 @@
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-@baseFontSize:          14px;
+@baseFontSize:          20px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        20px;
+@baseLineHeight:        30px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
@@ -158,15 +159,15 @@
 // -------------------------
 @navbarCollapseWidth:             979px;
 
-@navbarHeight:                    40px;
+@navbarHeight:                    50px;
 @navbarBackgroundHighlight:       #ffffff;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 5%);
+@navbarBackground:                @blue;
 @navbarBorder:                    darken(@navbarBackground, 12%);
 
-@navbarText:                      #777;
-@navbarLinkColor:                 #777;
-@navbarLinkColorHover:            @grayDark;
-@navbarLinkColorActive:           @gray;
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @grayLighter;
+@navbarLinkColorActive:           @grayLighter;
 @navbarLinkBackgroundHover:       transparent;
 @navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
 
