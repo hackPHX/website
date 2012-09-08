@@ -1,0 +1,22 @@
+{
+  "name": "hackPHX",
+  "description": "website for hackPHX",
+  "version": "0.0.1",
+  "homepage": "hackphx.com",
+  "author": {
+    "name": "Blaine Bublitz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hackphx/website.git"
+  },
+  "bugs": {
+    "url" : "http://github.com/hackphx/website/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/hackphx/website/blob/master/LICENSE-MIT"
+    }
+  ]
+}
