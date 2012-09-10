@@ -12,14 +12,14 @@ module.exports = function(grunt) {
         ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */'
     },
     lint: {
-      files: ['grunt.js', 'lib/**/*.js', 'test/**/*.js']
+      files: ['grunt.js', 'src/**/*.js', 'test/**/*.js']
     },
     qunit: {
       files: ['test/**/*.html']
     },
     concat: {
       dist: {
-        src: ['<banner:meta.banner>', '<file_strip_banner:lib/<%= pkg.name %>.js>'],
+        src: ['<banner:meta.banner>', 'lib/zepto.js', '<file_strip_banner:src/<%= pkg.name %>.js>'],
         dest: 'dist/js/<%= pkg.name %>.js'
       }
     },
@@ -63,7 +63,10 @@ module.exports = function(grunt) {
         eqnull: true,
         browser: true
       },
-      globals: {}
+      globals: {
+        '$': true,
+        console: true
+      }
     },
     uglify: {}
   });
