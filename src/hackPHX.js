@@ -5,7 +5,7 @@ $(function(){
   });
 
   $('a').on('click', function(e){
-    e.stopPropagation();
+      e.stopPropagation();
 
     var href = $(this).attr('href');
     if(href.substring(0, 1) === '#'){
@@ -14,6 +14,10 @@ $(function(){
       $(href).removeClass('hide');
     }
 
+  });
+
+  $('.modal').on('click', function(e){
+    e.stopPropagation();
   });
 
   $('.modal-header i.icon-remove').on('click', function(e){
