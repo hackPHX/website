@@ -36,6 +36,13 @@ module.exports = function(grunt) {
         options: {
           compile: true
         }
+      },
+      responsive: {
+        src: ['bootstrap/responsive.less'],
+        dest: 'dist/css/bootstrap-responsive.css',
+        options: {
+          compile: true
+        }
       }
     },
     watch: {
