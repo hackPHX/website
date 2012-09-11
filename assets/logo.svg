@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="logo-new.svg">
+   sodipodi:docname="logo.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,7 +63,7 @@
      transform="translate(0,-852.36218)">
     <g
        id="g3786"
-       transform="matrix(1.7336612,0,0,1.7336612,-676.68281,586.61712)">
+       transform="matrix(1.7336612,0,0,1.7336612,-674.68281,586.61712)">
       <text
          sodipodi:linespacing="125%"
          id="text2985"
@@ -92,12 +92,12 @@
          sodipodi:linespacing="125%"
          id="text2993"
          y="242.36218"
-         x="627.63287"
+         x="629.94012"
          style="font-size:83.35595703px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Steelfish;-inkscape-font-specification:Steelfish"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:0px;fill:#660310;fill-opacity:1;font-family:Adobe Gothic Std;-inkscape-font-specification:Adobe Gothic Std Bold"
            y="242.36218"
-           x="627.63287"
+           x="629.94012"
            id="tspan2995"
            sodipodi:role="line">PHX</tspan></text>
     </g>
