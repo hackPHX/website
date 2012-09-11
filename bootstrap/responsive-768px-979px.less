@@ -5,6 +5,22 @@
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+  html {
+    background-position: center 0;
+  }
+
+  .logo {
+    width: auto;
+    height: @logoHeight768;
+    top: 5px;
+    left: 60%;
+    right: 5px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
   // Fixed grid
   #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
 

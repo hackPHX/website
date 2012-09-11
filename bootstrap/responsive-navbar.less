@@ -13,23 +13,12 @@
   body {
     padding-top: 0;
   }
-  // Unfix the navbars
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    position: static;
-  }
-  .navbar-fixed-top {
-    margin-bottom: @baseLineHeight;
-  }
-  .navbar-fixed-bottom {
-    margin-top: @baseLineHeight;
-  }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
   .navbar .container {
-    width: auto;
+    width: @gridRowWidth768;
     padding: 0;
   }
   // Account for brand name
