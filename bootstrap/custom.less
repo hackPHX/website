@@ -1,7 +1,25 @@
 html {
   width: 100%;
   height: 100%;
-  background: url("@{largeBannerImg}") no-repeat center center fixed;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.top-navbar > .navbar-inner {
+  min-height: 40px;
+  line-height: 40px;
+}
+
+.top-navbar > .navbar-inner > .nav {
+  float: right;
+  line-height: 30px;
+}
+
+.jumbotron {
+  height: 500px;
+  background: url("@{largeBannerImg}") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9,16 +27,14 @@ html {
 }
 
 .logo {
+  margin-top: 5px;
+  width: 180px;
+  height: 40px;
   background: url("/assets/logo.svg") no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  width: 500px;
-  height: 90px;
-  position: fixed;
-  top: 5px;
-  right: 5px;
 }
 
 .modal-header .icon-remove {
