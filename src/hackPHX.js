@@ -1,4 +1,25 @@
 $(function(){
+  $(document).ready(function() {
+    var text = ">> are you ready to hack?";
+    var intervalId;
+    var consoletext = $('.consoletext').first();
+    var flasher = $('.flasher').first();
+    var type = function() {
+      var currentText = consoletext.text();
+      var currentIdx  = currentText.length;
+
+      var nextChar = text[currentIdx++];
+      if(nextChar) {
+        consoletext.append(nextChar);
+      }
+    };
+    var flash = function() {
+      flasher.toggle();
+    };
+
+    setInterval(type, 250);
+    setInterval(flash, 200);
+  });
 
   $('html').on('click', function(e){
     $('.modal').addClass('hide');
