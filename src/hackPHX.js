@@ -18,7 +18,7 @@ $(function(){
     };
 
     setInterval(type, 250);
-    setInterval(flash, 200);
+    setInterval(flash, 400);
   });
 
   $('html').on('click', function(e){
