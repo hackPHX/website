@@ -9,18 +9,26 @@ html {
 }
 
 .logo {
-  background: url("/assets/logo.svg") no-repeat;
+  background: fade(@grayLighter, 50%) url("/assets/logo.svg") no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
   width: 500px;
-  height: 90px;
+  height: 100px;
   position: fixed;
-  top: 5px;
-  right: 5px;
+  top: 0;
+  right: 0;
 }
 
 .modal-header .icon-remove {
   cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  padding: 60px 0;
+  background: fade(@grayLighter, 92%);
+  width: 100%;
 }
