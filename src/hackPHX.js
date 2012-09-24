@@ -24,4 +24,22 @@ $(function(){
     $(this).parents('.modal').addClass('hide');
   });
 
+  $('a.hideaway').on('click', function(e){
+    var targetId = e.target.getAttribute('name'),
+        hideableElement = $('#' + targetId).first(),
+        totalHeight = 0;
+
+    if( hideableElement.toggleClass('x-show').hasClass('x-show') ){
+      hideableElement.children().each(function(){
+        totalHeight = totalHeight + $(this).height();
+      });
+
+      hideableElement.height(totalHeight);
+    } else {
+      hideableElement.height(0);
+    }
+
+  });
+
 });
+
