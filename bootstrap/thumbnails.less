@@ -21,7 +21,6 @@
   float: left; // Explicity set the float since we don't require .span* classes
   margin-bottom: @baseLineHeight;
   margin-left: @gridGutterWidth;
-  .box-shadow(0 3px 3px);
 }
 
 // The actual thumbnail (can be `a` or `div`)
@@ -47,7 +46,14 @@ a.thumbnail:hover {
   margin-left: auto;
   margin-right: auto;
 }
+.thumbnail .title {
+  text-align: center;
+  margin-bottom: 0;
+}
 .thumbnail .caption {
-  padding: 9px;
+  padding: 5px;
   color: @gray;
+  text-align: justify;
+  font-size: @baseFontSize - 4px;
+  line-height: @baseLineHeight - 8px;
 }
