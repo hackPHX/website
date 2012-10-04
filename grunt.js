@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     },
     concat: {
       dist: {
-        src: ['<banner:meta.banner>', 'lib/zepto.js', '<file_strip_banner:src/<%= pkg.name %>.js>'],
+        src: ['<banner:meta.banner>', 'lib/zepto.js', 'lib/lodash.custom.js', '<file_strip_banner:src/<%= pkg.name %>.js>'],
         dest: 'dist/js/<%= pkg.name %>.js'
       }
     },
@@ -65,6 +65,7 @@ module.exports = function(grunt) {
       },
       globals: {
         '$': true,
+        '_': true,
         console: true
       }
     },

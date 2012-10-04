@@ -24,9 +24,27 @@ html {
 .content {
   position: absolute;
   top: 100%;
+  margin-top: -@navbarHeight;
   padding: 60px 0;
   background: fade(@grayLighter, 96%);
   width: 100%;
+}
+
+.awesome-bar {
+  font-family: @monoFontFamily;
+  margin-top: -(60px + @baseLineHeight + 18px);
+  background: fade(@grayLighter, 96%);
+  .border-radius(4px 4px 0 0);
+  font-size: @baseFontSize + 16px;
+  line-height: @baseLineHeight + 18px;
+  padding: 0 0 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.flasher {
+  width: 10px;
+  background: @red;
 }
 
 .action-call {
