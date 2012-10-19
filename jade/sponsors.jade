@@ -1,0 +1,7 @@
+section#sponsors.span3.pull-right
+  h1 Sponsors
+  ul.thumbnails
+    each sponsor in data.sponsors
+      li.span3
+        a.thumbnail(href="#{sponsor.url}", title="#{sponsor.name}")
+          img(src="#{sponsor.logo}", alt="")

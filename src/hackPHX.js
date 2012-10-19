@@ -34,4 +34,33 @@ $(function(){
     $(this).next('.collapsible').addClass('in');
   });
 
+  $('.email-subscribe').on('click', function(e){
+    $('.loading').removeClass('hide');
+
+    var email = $('.email').val();
+    var fname = $('.first-name').val();
+    var lname = $('.last-name').val();
+
+    $.ajax({
+      url: window.location.protocol + '//' + window.location.hostname + ':8080',
+      data: {
+        email: email,
+        firstName: fname,
+        lastName: lname
+      },
+      dataType: 'jsonp',
+      success: function(response){
+        $('.loading').addClass('hide');
+
+        if(response && response.error){
+          // console.log(response.error);
+          $('.response').html(response.error);
+        } else if(response && response.success){
+          // console.log(response.success);
+          $('.response').html(response.success);
+        }
+      }
+    });
+  });
+
 });

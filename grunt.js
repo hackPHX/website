@@ -1,6 +1,26 @@
 /*global module:false*/
 module.exports = function(grunt) {
 
+  var basename = require('path').basename;
+  var events = grunt.file.expand('./events/*.json');
+
+  var eventConfig = {};
+
+  grunt.utils._.forEach(events, function(event){
+
+    var eventAbbr = basename(event, '.json');
+
+    eventConfig[eventAbbr] = {
+      src: ['jade/index.jade'],
+      dest: eventAbbr,
+      options: {
+        client: false,
+        data: grunt.file.readJSON(event)
+      }
+    };
+
+  });
+
   // Project configuration.
   grunt.initConfig({
     pkg: '<json:package.json>',
@@ -29,6 +49,7 @@ module.exports = function(grunt) {
         dest: 'dist/js/<%= pkg.name %>.min.js'
       }
     },
+    jade: eventConfig,
     recess: {
       dist: {
         src: ['bootstrap/bootstrap.less'],
@@ -42,6 +63,14 @@ module.exports = function(grunt) {
         dest: 'dist/css/bootstrap-responsive.css',
         options: {
           compile: true
+        }
+      },
+      loadingAnimation: {
+        src: ['bootstrap/loading-animation.less'],
+        dest: 'dist/css/loading-animation.css',
+        options: {
+          compile: true,
+          strictPropertyOrder: false
         }
       }
     },
@@ -66,15 +95,17 @@ module.exports = function(grunt) {
       globals: {
         '$': true,
         '_': true,
-        console: true
+        console: true,
+        require: true
       }
     },
     uglify: {}
   });
 
   grunt.loadNpmTasks('grunt-recess');
+  grunt.loadNpmTasks('grunt-jade');
 
   // Default task.
-  grunt.registerTask('default', 'lint qunit concat min recess');
+  grunt.registerTask('default', 'lint qunit concat min recess jade');
 
 };

@@ -1,0 +1,59 @@
+{
+  "eventName": "HTML5 Game Hackathon",
+  "eventUrl": "https://hackphxhtml5game.eventbrite.com/",
+  "sponsors": [
+    {
+      "url": "http://iceddev.com",
+      "name": "Iced Dev",
+      "logo": "/assets/iceddev.png"
+    },
+    {
+      "url": "http://heatsynclabs.org",
+      "name": "HeatSync Labs",
+      "logo": "/assets/heatsynclabs.png"
+    }
+  ],
+  "questions": [],
+  "teamMembers": [
+    {
+      "color": "ingrid",
+      "imageUrl": "/assets/ingrid-profile.jpg",
+      "name": "Ingrid Avenda&ntilde;o",
+      "description": "Ingrid is the energetic and charisitic leader that is the brains of the operation.  She moved to Phoenix to intern for Intel, and was studying electrical engineering and art in school back in Pittsburgh. In her free time she makes interactive oil paintings that light-up with embedded circuits that are reprogrammable.",
+      "twitter": {
+        "link": "https://twitter.com/ingridavendano",
+        "name": "ingridavendano"
+      }
+    },
+    {
+      "color": "blaine",
+      "imageUrl": "/assets/blaine-profile.jpg",
+      "name": "Blaine Bublitz",
+      "description": "Blaine is the co-founder of Iced Dev, a Phoenix-based HTML5 and JavaScript consulting company that also creates HTML5 Games. He is dedicated to using his knowledge, experience and skillset to educate and bring together the Phoenix tech community. He can often be found at HeatSync Labs or tech meetups.",
+      "twitter": {
+        "link": "https://twitter.com/BlaineBublitz",
+        "name": "BlaineBublitz"
+      }
+    },
+    {
+      "color": "ryan",
+      "imageUrl": "/assets/ryan-profile.jpg",
+      "name": "Ryan Rix",
+      "description": "Ryan is a Phoenix-native hacker and doer of cool things. By day, he is a freelance software developer specializing in web apps with a blend of javascript-heavy frontend and Ruby on Rails and Node.js backends. At night, he works on everything from IT to Arduino-based door access control systems to high power model rockets.",
+      "twitter": {
+        "link": "https://twitter.com/rrrrrrrix",
+        "name": "rrrrrrrix"
+      }
+    },
+    {
+      "color": "luis",
+      "imageUrl": "/assets/luis-profile.jpg",
+      "name": "Luis Montes",
+      "description": "Luis is the other co-founder of Iced Dev. He has over a decade of experience in the software industry and has given talks on HTML5 Games and new technologies at DojoConf 2011 and user groups in Phoenix. He helps run the Phoenix Google Developer Group and enjoys improving the software scene in Arizona.",
+      "twitter": {
+        "link": "https://twitter.com/monteslu",
+        "name": "monteslu"
+      }
+    }
+  ]
+}

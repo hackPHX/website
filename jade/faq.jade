@@ -1,0 +1,10 @@
+section#faq.span9.middle-section
+  h1 Facts and Questions
+  pre
+    | hack = solution.clever(trickyProblem);
+    | hackathon = hack + marathon;
+  each question, idx in data.questions
+    if idx === 0
+      include firstquestion
+    else
+      include question

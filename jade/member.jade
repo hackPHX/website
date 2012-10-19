@@ -1,0 +1,6 @@
+li.span3
+  div(class="thumbnail #{member.color}")
+    img.img-rounded(src="#{member.imageUrl}")
+    h2.title= member.name
+    p.caption= member.description
+    a.handle(href="#{member.twitter.link}")= member.twitter.name

@@ -1,0 +1,96 @@
+{
+  "eventName": "HTML5 Game Hackathon",
+  "eventUrl": "https://hackphxhtml5game.eventbrite.com/",
+  "sponsors": [
+    {
+      "url": "http://iceddev.com",
+      "name": "Iced Dev",
+      "logo": "/assets/iceddev.png"
+    },
+    {
+      "url": "http://heatsynclabs.org",
+      "name": "HeatSync Labs",
+      "logo": "/assets/heatsynclabs.png"
+    }
+  ],
+  "questions": [
+    {
+      "title": "What is a hackathon?",
+      "answer": "A hackathon is an event that brings together engineers, designers, developers, entrepreneurs and anyone with good ideas into the same space for a brief but intense period of collaboration to create usable software. Hackathons typically focus on creating hacks or applications for web or mobile platforms. Participants have anywhere from 12 to 48 hours to build something awesome, whether as individuals or in teams, and show it off at the end the event."
+    },
+    {
+      "title": "What are the rules?",
+      "answer": "We don't want to limit creativity. Rules will vary depending on the different topics of types of hackathons (hardware vs software). For instance hardware hackathons may have budget constraints."
+    },
+    {
+      "title": "Who can participate?",
+      "answer": "Anyone that is enthusiastic about making cool stuff, hacking, collaborating with others and enjoys a little competition. You do not do not have to be only a programmer or engineer to participate, though you should have some coding experience. We want people from all different backgrounds - you can be a student, hobbyist, artist, professional, etc. If you know how to code a little and are interested, then we recommend you sign up!"
+    },
+    {
+      "title": "What if I am new to programming?",
+      "answer": "That’s okay! Everyone is here to learn and have fun. This will be great learning experience and many people will be willing to help you out along the way. We will be providing a bootcamp beforehand of tech talks that cover various skills that will be useful to bring people up to speed quickly."
+    },
+    {
+      "title": "Do I need a team or idea to sign up?",
+      "answer": "No. You can sign up without a team! Do not worry, there will sessions to help people connect with others to form teams and find team members. There will also be workshops to help teams brainstorm and generate ideas on what to work on."
+    },
+    {
+      "title": "What should I bring?",
+      "answer": "You will need a laptop and charger that you can program on. Wear comfortable clothes! Bring toiletries, cell phone, and pillow for comfort. We recommend people bring a power cord – circuit breakers are great! Check the event page of the hackathon you are attending to make sure if there are any other technology specific requirements you need."
+    },
+    {
+      "title": "How long is a hackathon?",
+      "answer": "Our hackathons are all day events that last for 12 hours."
+    },
+    {
+      "title": "Do I have to be at the hackathon the entire time?",
+      "answer": "No. We actually recommend that people take breaks from their work to stretch and get refreshed, but all coding must be done on site since it is a competition."
+    },
+    {
+      "title": "Is food provided?",
+      "answer": "Yup! We will be providing breakfast, lunch, dinner, snakes and even energy drinks throughout the competition for participants free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
+    }
+  ],
+  "teamMembers": [
+    {
+      "color": "ingrid",
+      "imageUrl": "/assets/ingrid-profile.jpg",
+      "name": "Ingrid Avenda&ntilde;o",
+      "description": "Ingrid is the energetic and charisitic leader that is the brains of the operation.  She moved to Phoenix to intern for Intel, and was studying electrical engineering and art in school back in Pittsburgh. In her free time she makes interactive oil paintings that light-up with embedded circuits that are reprogrammable.",
+      "twitter": {
+        "link": "https://twitter.com/ingridavendano",
+        "name": "ingridavendano"
+      }
+    },
+    {
+      "color": "blaine",
+      "imageUrl": "/assets/blaine-profile.jpg",
+      "name": "Blaine Bublitz",
+      "description": "Blaine is the co-founder of Iced Dev, a Phoenix-based HTML5 and JavaScript consulting company that also creates HTML5 Games. He is dedicated to using his knowledge, experience and skillset to educate and bring together the Phoenix tech community. He can often be found at HeatSync Labs or tech meetups.",
+      "twitter": {
+        "link": "https://twitter.com/BlaineBublitz",
+        "name": "BlaineBublitz"
+      }
+    },
+    {
+      "color": "ryan",
+      "imageUrl": "/assets/ryan-profile.jpg",
+      "name": "Ryan Rix",
+      "description": "Ryan is a Phoenix-native hacker and doer of cool things. By day, he is a freelance software developer specializing in web apps with a blend of javascript-heavy frontend and Ruby on Rails and Node.js backends. At night, he works on everything from IT to Arduino-based door access control systems to high power model rockets.",
+      "twitter": {
+        "link": "https://twitter.com/rrrrrrrix",
+        "name": "rrrrrrrix"
+      }
+    },
+    {
+      "color": "luis",
+      "imageUrl": "/assets/luis-profile.jpg",
+      "name": "Luis Montes",
+      "description": "Luis is the other co-founder of Iced Dev. He has over a decade of experience in the software industry and has given talks on HTML5 Games and new technologies at DojoConf 2011 and user groups in Phoenix. He helps run the Phoenix Google Developer Group and enjoys improving the software scene in Arizona.",
+      "twitter": {
+        "link": "https://twitter.com/monteslu",
+        "name": "monteslu"
+      }
+    }
+  ]
+}
