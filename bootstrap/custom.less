@@ -11,6 +11,12 @@ html {
   background-size: cover;
 }
 
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 400px;
+}
+
 .logo {
   background: url("/assets/logo.png") no-repeat;
   -webkit-background-size: 100%;
@@ -33,11 +39,8 @@ html {
   a {
     font-size: @baseFontSize * 2;
   }
-  .span6 {
-    padding: 15px 0;
-  }
-  .event-date {
-    padding: 0 0 10px;
+  .row {
+    padding: 10px 0 0;
   }
 }
 
@@ -47,11 +50,9 @@ html {
   width: 100%;
 }
 
-.home-page {
-  .content {
-    top: 100%;
-    margin-top: -@navbarHeight;
-  }
+.home-page .content {
+  top: 100%;
+  margin-top: -@navbarHeight;
 }
 
 .event-page .content {
