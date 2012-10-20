@@ -2,6 +2,31 @@
   "eventName": "HTML5 Game Hackathon",
   "eventUrl": "https://hackphxhtml5game.eventbrite.com/",
   "sponsors": [
+  {
+    "url": "http://makezine.com",
+    "name": "Make",
+    "logo": "/assets/make.png"
+  },
+  {
+    "url": "http://www.microchip.com",
+    "name": "Microchip",
+    "logo": "/assets/microchip.png"
+  },
+  {
+    "url": "http://www.elenco.com",
+    "name": "Elenco",
+    "logo": "/assets/elenco.gif"
+  },
+  {
+    "url": "http://www.parallax.com",
+    "name": "Paralalx",
+    "logo": "/assets/parallax.gif"
+  },
+  {
+    "url": "http://www.schmartboard.com/",
+    "name": "Schmartboard",
+    "logo": "/assets/schmartboard2.png"
+  },
     {
       "url": "http://iceddev.com",
       "name": "Iced Dev",
@@ -13,46 +38,59 @@
       "logo": "/assets/heatsynclabs.png"
     }
   ],
-  "questions": [],
+  "questions": [
+  {
+     "title": "What is a hackathon?",
+     "answer": "A hackathon is an event that brings together engineers, designers, developers, entrepreneurs and anyone with good ideas into the same space for a brief but intense period of collaboration to create something awesome. Particpants have 12 hours to design and implement something, whether as individuals or in teams, and show it off at the end the event."
+   },
+   {
+     "title": "What are the rules?",
+     "answer": "Rules will be limited. There will be a secret ingrediant and an Arduino and each team will have small budget to add whatever you want from Radio Shack, Walmart, Craigslist, etc. The idea is to not make this a quest to find out who has deeper pockets, but what you can do with your creativity. Judges will be on hand if you'd like to clear something through them, and at the end of the day they will pick their favorite. That being said there will be a Jury prize too, so maybe breaking the rules will be worth it :)."
+   },
+   {
+     "title": "Who can participate?",
+     "answer": "Anyone that is enthusiastic about making cool stuff, hacking, collaborating with others and enjoys a little competition. You do not do not have to be only a programmer or engineer to participate, though you should have some Arduino experience. We want people from all different backgrounds - you can be a student, hobbyist, artist, professional, etc. If you know how to code a little and are interested, then we recommend you sign up!"
+   },
+   {
+     "title": "Do I need a team or idea to sign up?",
+     "answer": "You can sign up without a team. There will be a morning session to help people connect with others to form teams and find team members. There will also be workshops to help teams brainstorm and generate ideas on what to work on."
+   },
+   {
+     "title": "What should I bring?",
+     "answer": "You will need a laptop and charger that you can program on. We'll provide the hardware :) "
+   },
+   {
+     "title": "How long is a hackathon?",
+     "answer": "This is a 12 hour event."
+   },
+   {
+     "title": "Do I have to be at the hackathon the entire time?",
+     "answer": "No. We actually recommend that people take breaks from their work to stretch and get refreshed, shop, etc, but all coding must be done on site since it is a competition."
+   },
+   {
+     "title": "Is food provided?",
+     "answer": "Yup! We will be providing lunch, dinner, snacks and maybe even energy drinks and beers throughout the competition for participants free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
+   }
+],
   "teamMembers": [
-    {
-      "color": "ingrid",
-      "imageUrl": "/assets/ingrid-profile.jpg",
-      "name": "Ingrid Avenda&ntilde;o",
-      "description": "Ingrid is the energetic and charisitic leader that is the brains of the operation.  She moved to Phoenix to intern for Intel, and was studying electrical engineering and art in school back in Pittsburgh. In her free time she makes interactive oil paintings that light-up with embedded circuits that are reprogrammable.",
-      "twitter": {
-        "link": "https://twitter.com/ingridavendano",
-        "name": "ingridavendano"
-      }
-    },
+  {
+    "color": "ingrid",
+    "imageUrl": "/assets/jacob-profile.jpg",
+    "name": "Jacob Rosenthal",
+    "description": "Former Champion for HeatSync Labs, Starcraft addict, and general purveyor of good taste.",
+    "twitter": {
+      "link": "https://twitter.com/jacobrosenthal",
+      "name": "jacobrosenthal"
+    }
+  },
     {
       "color": "blaine",
-      "imageUrl": "/assets/blaine-profile.jpg",
-      "name": "Blaine Bublitz",
-      "description": "Blaine is the co-founder of Iced Dev, a Phoenix-based HTML5 and JavaScript consulting company that also creates HTML5 Games. He is dedicated to using his knowledge, experience and skillset to educate and bring together the Phoenix tech community. He can often be found at HeatSync Labs or tech meetups.",
+      "imageUrl": "/assets/julie-profile.jpg",
+      "name": "Julie Hudy",
+      "description": "Mom of 2 Amazing Kids, a crafter, photographer, artist and another an inventor! Wow I'm lucky!",
       "twitter": {
-        "link": "https://twitter.com/BlaineBublitz",
-        "name": "BlaineBublitz"
-      }
-    },
-    {
-      "color": "ryan",
-      "imageUrl": "/assets/ryan-profile.jpg",
-      "name": "Ryan Rix",
-      "description": "Ryan is a Phoenix-native hacker and doer of cool things. By day, he is a freelance software developer specializing in web apps with a blend of javascript-heavy frontend and Ruby on Rails and Node.js backends. At night, he works on everything from IT to Arduino-based door access control systems to high power model rockets.",
-      "twitter": {
-        "link": "https://twitter.com/rrrrrrrix",
-        "name": "rrrrrrrix"
-      }
-    },
-    {
-      "color": "luis",
-      "imageUrl": "/assets/luis-profile.jpg",
-      "name": "Luis Montes",
-      "description": "Luis is the other co-founder of Iced Dev. He has over a decade of experience in the software industry and has given talks on HTML5 Games and new technologies at DojoConf 2011 and user groups in Phoenix. He helps run the Phoenix Google Developer Group and enjoys improving the software scene in Arizona.",
-      "twitter": {
-        "link": "https://twitter.com/monteslu",
-        "name": "monteslu"
+        "link": "https://twitter.com/juliehudy",
+        "name": "juliehudy"
       }
     }
   ]
