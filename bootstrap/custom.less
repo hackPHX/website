@@ -43,16 +43,24 @@ html {
 
 .content {
   position: absolute;
-  top: 100%;
-  margin-top: -@navbarHeight;
-  padding: 60px 0;
   background: fade(@grayLighter, 96%);
   width: 100%;
 }
 
+.home-page {
+  .content {
+    top: 100%;
+    margin-top: -@navbarHeight;
+  }
+}
+
+.event-page .content {
+  padding-top: 30px;
+}
+
 .awesome-bar {
   font-family: @monoFontFamily;
-  margin-top: -(60px + @baseLineHeight + 18px);
+  margin-top: -(@baseLineHeight + 18px);
   background: fade(@grayLighter, 96%);
   .border-radius(4px 4px 0 0);
   font-size: @baseFontSize + 16px;

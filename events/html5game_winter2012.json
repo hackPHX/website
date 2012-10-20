@@ -2,6 +2,7 @@
   "eventName": "HTML5 Game Hackathon",
   "signup": true,
   "signupUrl": "https://hackphxhtml5game.eventbrite.com/",
+  "aboutUs": true,
   "sponsors": [
     {
       "url": "http://iceddev.com",

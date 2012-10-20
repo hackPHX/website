@@ -3,13 +3,14 @@ extend layout
 block content
   .container
     .row
-      include awesomebar
+      //- include awesomebar
       include sponsors
       if data.signup
         include signup
       else
         include email
-      include aboutus
+      if data.aboutUs
+        include aboutus
       include faq
     include team
   script(src="/dist/js/hackPHX.min.js")

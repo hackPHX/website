@@ -1,7 +1,8 @@
 {
   "eventName": "HTML5 Game Hackathon",
   "signup": false,
-  "signupUrl": "https://hackphxhtml5game.eventbrite.com/",
+  "signupUrl": "",
+  "aboutUs": false,
   "sponsors": [
   {
     "url": "http://makezine.com",

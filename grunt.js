@@ -75,7 +75,7 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['<config:lint.files>', 'bootstrap/**/*.less', 'jade/**/*.jade', 'events/**/*.json'],
+      files: ['<config:lint.files>', 'bootstrap/**/*.less', 'jade/**/*.jade'],
       tasks: 'default'
     },
     jshint: {
