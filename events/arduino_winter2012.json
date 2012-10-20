@@ -43,35 +43,43 @@
   "questions": [
   {
      "title": "What is a hackathon?",
-     "answer": "A hackathon is an event that brings together engineers, designers, developers, entrepreneurs and anyone with good ideas into the same space for a brief but intense period of collaboration to create something awesome. Particpants have 12 hours to design and implement something, whether as individuals or in teams, and show it off at the end the event."
+     "answer": "A hackathon is an event that brings together engineers, designers, developers, entrepreneurs anyone with good ideas into the same space for a brief but intense period of collaboration to create ... something. You'll have 12 hours to build whatever you want using an Arduino, our secret ingredient, the hackerspace's resources, and a small budget to buy additinoal stuff from Walmart, Radioshack, Craigslist, etc. Near the end of the 12 hour period judges will pick their favorite, and participants will award the Jury prize, but we promise everyone will go home with hardware."
    },
    {
      "title": "What are the rules?",
-     "answer": "Rules will be limited. There will be a secret ingrediant and an Arduino and each team will have small budget to add whatever you want from Radio Shack, Walmart, Craigslist, etc. The idea is to not make this a quest to find out who has deeper pockets, but what you can do with your creativity. Judges will be on hand if you'd like to clear something through them, and at the end of the day they will pick their favorite. That being said there will be a Jury prize too, so maybe breaking the rules will be worth it :)."
+     "answer": "Rules are be limited to respect creativity. The main rule will be budgets so the competition doesn't become a quest to find the deepest pockets. Judges will be on hand if you'd like to clear something through them. That being said there will be a Jury prize too so breaking the rules may be worth it :)."
    },
    {
      "title": "Who can participate?",
-     "answer": "Anyone that is enthusiastic about making cool stuff, hacking, collaborating with others and enjoys a little competition. You do not do not have to be only a programmer or engineer to participate, though you should have some Arduino experience. We want people from all different backgrounds - you can be a student, hobbyist, artist, professional, etc. If you know how to code a little and are interested, then we recommend you sign up!"
+     "answer": "Anyone enthusiastic about making, hacking, collaborating and enjoying a little bit of competition. Some Arduino experience will help, but you never know what skills might be useful to wow the judges."
    },
    {
      "title": "Do I need a team or idea to sign up?",
-     "answer": "You can sign up without a team. There will be a morning session to help people connect with others to form teams and find team members. There will also be workshops to help teams brainstorm and generate ideas on what to work on."
+     "answer": "Nope. We will hold a morning session to help people connect with others to meet people and form teams. As for ideas you'll only find out the secret ingredients on hack day and will have to work from there."
+   },
+   {
+     "title": "May we sign up as a team?",
+     "answer": "Sign up is done on an individual basis but we intend to attempt to respect pre-existing teams. We have limited supplies of hardware though we will need to form into no more than ~10 teams with ~5 people per team on hack day."
    },
    {
      "title": "What should I bring?",
-     "answer": "You will need a laptop and charger that you can program on. We'll provide the hardware :) "
+     "answer": "Bring a charger and laptop to program on. We'll provide the hardware :) "
    },
    {
-     "title": "How long is a hackathon?",
-     "answer": "This is a 12 hour event."
+     "title": "How long is the hackathon?",
+     "answer": "We will be onsite at least 12 hours including the intro session and presentations/judging."
    },
    {
      "title": "Do I have to be at the hackathon the entire time?",
-     "answer": "No. We actually recommend that people take breaks from their work to stretch and get refreshed, shop, etc, but all coding must be done on site since it is a competition."
+     "answer": "Nope. We actually recommend that people take breaks from their work to stretch and get refreshed, shop, etc. However, all work should be done on site since it is a competition."
    },
    {
+     "title": "Can I bring my husband/wife/kids?",
+     "answer": "If they are signed up and competing, yes, otherwise no. Space and tools will be very limited."
+   }
+   {
      "title": "Is food provided?",
-     "answer": "Yup! We will be providing lunch, dinner, snacks and maybe even energy drinks and beers throughout the competition for participants free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
+     "answer": "Yup! We will be providing lunch, dinner, snacks and maybe even energy drinks and beers throughout the competition free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
    }
 ],
   "teamMembers": [
