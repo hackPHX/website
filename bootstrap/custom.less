@@ -1,3 +1,6 @@
+@logoHeight: 125px;
+@logoWidth: 500px;
+
 html {
   width: 100%;
   height: 100%;
@@ -9,16 +12,33 @@ html {
 }
 
 .logo {
-  background: url("/assets/logo_updated.svg") no-repeat;
+  background: url("/assets/logo.png") no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  width: 500px;
-  height: 125px;
+  width: @logoWidth;
+  height: @logoHeight;
   position: fixed;
   top: 0;
   right: 0;
+}
+
+.upcoming-events {
+  margin-top: @logoHeight;
+  background: fade(@grayLighter, 75%);
+  text-align: center;
+  font-size: @baseFontSize * 2;
+  .border-radius(10px);
+  a {
+    font-size: @baseFontSize * 2;
+  }
+  .span6 {
+    padding: 15px 0;
+  }
+  .event-date {
+    padding: 0 0 10px;
+  }
 }
 
 .content {
