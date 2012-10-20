@@ -5,7 +5,10 @@ block content
     .row
       include awesomebar
       include sponsors
-      include actioncall
+      if data.signup
+        include signup
+      else
+        include email
       include aboutus
       include faq
     include team

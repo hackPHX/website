@@ -1,6 +1,7 @@
 {
   "eventName": "HTML5 Game Hackathon",
-  "eventUrl": "https://hackphxhtml5game.eventbrite.com/",
+  "signup": false,
+  "signupUrl": "https://hackphxhtml5game.eventbrite.com/",
   "sponsors": [
   {
     "url": "http://makezine.com",
@@ -74,7 +75,7 @@
 ],
   "teamMembers": [
     {
-      "color": "blaine",
+      "color": "green",
       "imageUrl": "/assets/julie-profile.jpg",
       "name": "Julie Hudy",
       "description": "Mom of 2 Amazing Kids, a crafter, photographer, artist and another an inventor! Wow I'm lucky!",
@@ -84,7 +85,7 @@
       }
     },
 	{
-	    "color": "ingrid",
+	    "color": "gold",
 	    "imageUrl": "/assets/jacob-profile.jpg",
 	    "name": "Jacob Rosenthal",
 	    "description": "Former Champion for HeatSync Labs, Starcraft addict, and general purveyor of good taste.",

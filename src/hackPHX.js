@@ -53,10 +53,10 @@ $(function(){
         $('.loading').addClass('hide');
 
         if(response && response.error){
-          // console.log(response.error);
+          $('.response').removeClass('alert-success').addClass('alert alert-error');
           $('.response').html(response.error);
         } else if(response && response.success){
-          // console.log(response.success);
+          $('.response').removeClass('alert-error').addClass('alert alert-success');
           $('.response').html(response.success);
         }
       }
