@@ -73,16 +73,6 @@
    }
 ],
   "teamMembers": [
-  {
-    "color": "ingrid",
-    "imageUrl": "/assets/jacob-profile.jpg",
-    "name": "Jacob Rosenthal",
-    "description": "Former Champion for HeatSync Labs, Starcraft addict, and general purveyor of good taste.",
-    "twitter": {
-      "link": "https://twitter.com/jacobrosenthal",
-      "name": "jacobrosenthal"
-    }
-  },
     {
       "color": "blaine",
       "imageUrl": "/assets/julie-profile.jpg",
@@ -92,6 +82,17 @@
         "link": "https://twitter.com/juliehudy",
         "name": "juliehudy"
       }
-    }
+    },
+	{
+	    "color": "ingrid",
+	    "imageUrl": "/assets/jacob-profile.jpg",
+	    "name": "Jacob Rosenthal",
+	    "description": "Former Champion for HeatSync Labs, Starcraft addict, and general purveyor of good taste.",
+	    "twitter": {
+	      "link": "https://twitter.com/jacobrosenthal",
+	      "name": "jacobrosenthal"
+	    }
+	  }
+
   ]
 }
