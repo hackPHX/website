@@ -5,6 +5,11 @@
   "aboutUs": true,
   "sponsors": [
     {
+      "url": "http://enyojs.com",
+      "name": "Enyo",
+      "logo": "/assets/enyojs.png"
+    },
+    {
       "url": "http://iceddev.com",
       "name": "Iced Dev",
       "logo": "/assets/iceddev.png"
