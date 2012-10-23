@@ -18,31 +18,31 @@
   "questions": [
     {
       "title": "What is a hackathon?",
-      "answer": "A hackathon is an event that brings together engineers, designers, developers, entrepreneurs and anyone with good ideas into the same space for a brief but intense period of collaboration to create usable software. Hackathons typically focus on creating hacks or applications for web or mobile platforms. Participants have anywhere from 12 to 48 hours to build something awesome, whether as individuals or in teams, and show it off at the end the event."
+      "answer": "A hackathon is an event that brings together engineers, designers, developers and anyone with good ideas into the same space for a brief, intense period of collaboration to create a game. Participants will have 12 hours to build their HTML5 game, in teams of 5 or 6, and show it off to the judges at the end the event. The best games will be awarded prizes and our sponsors will be providing something for everyone."
     },
     {
       "title": "What are the rules?",
-      "answer": "We don't want to limit creativity. Rules will vary depending on the different topics of types of hackathons (hardware vs software). For instance hardware hackathons may have budget constraints."
+      "answer": "The rules are to create a compelling game using HTML5 technologies within the time frame. Games will be judged on gameplay, design, use of HTML5 technologies and *wow* factor, so make sure to be creative!"
     },
     {
       "title": "Who can participate?",
-      "answer": "Anyone that is enthusiastic about making cool stuff, hacking, collaborating with others and enjoys a little competition. You do not do not have to be only a programmer or engineer to participate, though you should have some coding experience. We want people from all different backgrounds - you can be a student, hobbyist, artist, professional, etc. If you know how to code a little and are interested, then we recommend you sign up!"
+      "answer": "Anyone that is enthusiastic about making cool stuff, hacking, collaborating with others and enjoys a little competition. You do not have to be only a programmer or engineer to participate. Many different types of people are needed to make a game! If you are interested in game creation, then we recommend you sign up!"
     },
     {
-      "title": "What if I am new to programming?",
-      "answer": "That’s okay! Everyone is here to learn and have fun. This will be great learning experience and many people will be willing to help you out along the way. We will be providing a bootcamp beforehand of tech talks that cover various skills that will be useful to bring people up to speed quickly."
+      "title": "What if I am new to programming or am not a programmer at all?",
+      "answer": "That’s okay! Many skillsets are needed to make a game. Everyone is here to learn and have fun. We plan to be providing a bootcamp before the hackathon begins to teach people the basics of HTML5 game creation."
     },
     {
       "title": "Do I need a team or idea to sign up?",
-      "answer": "No. You can sign up without a team! Do not worry, there will sessions to help people connect with others to form teams and find team members. There will also be workshops to help teams brainstorm and generate ideas on what to work on."
+      "answer": "You do not need a team to sign up, and we are actively going to try pairing experienced and non-experienced people and evenly distribute skillsets. Having an idea is helpful, but not required. Remember, each team can only submit one project!"
     },
     {
       "title": "What should I bring?",
-      "answer": "You will need a laptop and charger that you can program on. Wear comfortable clothes! Bring toiletries, cell phone, and pillow for comfort. We recommend people bring a power cord – circuit breakers are great! Check the event page of the hackathon you are attending to make sure if there are any other technology specific requirements you need."
+      "answer": "You will need a laptop and charger that you can program on. We will be providing WiFi and power cords."
     },
     {
       "title": "How long is a hackathon?",
-      "answer": "Our hackathons are all day events that last for 12 hours."
+      "answer": "This hackathon is 12 hours with a 2 hour bootcamp prior."
     },
     {
       "title": "Do I have to be at the hackathon the entire time?",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Is food provided?",
-      "answer": "Yup! We will be providing breakfast, lunch, dinner, snakes and even energy drinks throughout the competition for participants free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
+      "answer": "Yup! We will be providing lunch, dinner, snacks and maybe even energy drinks and beers throughout the competition for participants free of charge. If you have a special dietary need (gluten-free, vegetarian, etc) or food allergy - please <a href=\"mailto:info@hackPHX.com\">email</a> us! We will be more than happy to work with you."
     }
   ],
   "teamMembers": [
