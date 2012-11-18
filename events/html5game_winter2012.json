@@ -60,16 +60,6 @@
   ],
   "teamMembers": [
     {
-      "color": "gold",
-      "imageUrl": "/assets/ingrid-profile.jpg",
-      "name": "Ingrid Avenda&ntilde;o",
-      "description": "Ingrid is the energetic and charisitic leader that is the brains of the operation.  She moved to Phoenix to intern for Intel, and was studying electrical engineering and art in school back in Pittsburgh. In her free time she makes interactive oil paintings that light-up with embedded circuits that are reprogrammable.",
-      "twitter": {
-        "link": "https://twitter.com/ingridavendano",
-        "name": "ingridavendano"
-      }
-    },
-    {
       "color": "green",
       "imageUrl": "/assets/blaine-profile.jpg",
       "name": "Blaine Bublitz",
