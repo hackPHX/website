@@ -4,7 +4,7 @@
     p
       | Hi there! We're the team that makes up hackPHX and we're all members of the Phoenix hackerspace <a href="http://heatsynclabs.org">Heatsync Labs</a>.
     - var span = data.teamMembers.length * 3
-    - var offset = (12 - span) / 2
+    - var offset = Math.floor((12 - span) / 2)
     div(class="span#{span} offset#{offset}")
       ul.thumbnails.members
         each member in data.teamMembers
