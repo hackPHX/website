@@ -1,0 +1,3 @@
+[submodule "html5game_winter2012"]
+	path = html5game_winter2012
+	url = git://github.com/hackphx-html5games/hackphx-html5games.github.com
